@@ -72,5 +72,13 @@ const getMintPrice = (candyMachine: CandyMachineAccount): string => {
       ? candyMachine.state.whitelistMintSettings?.discountPrice!
       : candyMachine.state.price!,
   );
-  return `◎ ${price}`;
+  console.log("struth:", price)
+  if (price) {
+    return `◎ ${price}`;
+  } else {
+    const altPrice = formatNumber.asNumber(
+      candyMachine.state.price,
+    );
+    return `◎ ${altPrice}`;
+  }
 };
