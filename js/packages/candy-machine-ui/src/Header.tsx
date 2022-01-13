@@ -72,7 +72,6 @@ const getMintPrice = (candyMachine: CandyMachineAccount): string => {
       ? candyMachine.state.whitelistMintSettings?.discountPrice!
       : candyMachine.state.price!,
   );
-  console.log("struth:", price)
   if (price) {
     return `◎ ${price}`;
   } else {
