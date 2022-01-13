@@ -1,0 +1,47 @@
+{
+    "price": 2.0, 
+
+    "number": 10, 
+
+    "gatekeeper": {
+        "gatekeeperNetwork" : "ignREusXmGrscGNUesoU9mxfds9AiYTezUKex2PsZV6",
+        "expireOnUse" : true
+    }, 
+
+    "solTreasuryAccount": "4S9UTxi37bB5vRgURmUimzht6pDcnT4DnJKf1p8SW37e", 
+
+    "splTokenAccount": null, 
+
+    "splToken": null, 
+
+    "goLiveDate": null, 
+
+    "endSettings": null, 
+
+    "whitelistMintSettings": { 
+
+        "mode" : { "burnEveryTime": true }, 
+
+        "mint" : "9QECn3ptxyVzdjy85gKgPnQsJJSD9yCyXhMDu8ZbgyNy", 
+
+        "presale" : true, 
+
+        "discountPrice" : 2 
+
+    }, 
+
+    "hiddenSettings": null, 
+
+    "storage": "arweave", 
+
+    "ipfsInfuraProjectId": null, 
+
+    "ipfsInfuraSecret": null, 
+
+    "awsS3Bucket": null, 
+
+    "noRetainAuthority": false, 
+
+    "noMutable": false 
+
+} 
